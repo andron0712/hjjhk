@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Практична №5</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .box { margin-bottom: 30px; }
+    input, textarea { display: block; margin: 5px 0; width: 300px; }
+    button { margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Практична робота №5</h1>
+
+<!-- Завдання 1 -->
+<div class="box">
+  <h2>Користувачі</h2>
+  <button id="loadUsers">Завантажити</button>
+  <ul id="users"></ul>
+  <p id="userError"></p>
+</div>
+
+<!-- Завдання 2 -->
+<div class="box">
+  <h2>Створити пост</h2>
+  <form id="postForm">
+    <input type="text" id="title" placeholder="Title" required>
+    <textarea id="body" placeholder="Body" required></textarea>
+    <button type="submit">Відправити</button>
+  </form>
+</div>
+
+<!-- Завдання 3 -->
+<div class="box">
+  <h2>Пости (async/await)</h2>
+  <button id="loadPosts">Завантажити</button>
+  <div id="posts"></div>
+  <p id="postError"></p>
+</div>
+
+<!-- Завдання 4 -->
+<div class="box">
+  <h2>Профіль користувача</h2>
+  <button id="loadProfile">Завантажити</button>
+  <div id="profile"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
